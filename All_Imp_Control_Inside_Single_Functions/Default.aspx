@@ -46,12 +46,14 @@
             </div>
             <div class="control">
                 <b>
-                    <asp:Label ID="lblCheckboxlist" runat="server" Text="Checkboxlist:"></asp:Label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="lblCheckboxlist" runat="server" Text="Checkboxlist:"></asp:Label></b>
+                
                 <asp:CheckBoxList ID="chkEmployee" runat="server"></asp:CheckBoxList>
             </div>
             <div class="control">
                 <b>
-                    <asp:Label ID="lblRadioButtonList" runat="server" Text="RadioButtonList:"></asp:Label></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="lblRadioButtonList" runat="server" Text="RadioButtonList:"></asp:Label></b>
+                
                 <asp:RadioButtonList ID="rblEmployee" runat="server"></asp:RadioButtonList>
             </div>
         </div>
